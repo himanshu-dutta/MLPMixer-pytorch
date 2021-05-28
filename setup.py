@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-from mlp_mixer.version import __version__
 
 with open("README.md") as f:
     long_description = f.read()
@@ -7,7 +6,7 @@ with open("README.md") as f:
 setup(
     name="mlp-mixer",
     packages=find_packages(),
-    version=__version__,
+    version="0.0.1",
     license="MIT",
     description="Pytorch implementation of MLPMixer",
     long_description=long_description,
